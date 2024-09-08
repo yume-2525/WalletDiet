@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     //入力された文字列を保持する状態変数
+    //かきくけこ
     @State var inputText = ""
     var body: some View {
         //垂直にレイアウト
