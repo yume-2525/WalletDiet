@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  WalletDiet
 //
-//  Created by 高田梓沙 on 2024/09/02.
+//  Created by Azusa on 2024/09/02.
 //
 
 import SwiftUI
