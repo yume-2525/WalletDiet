@@ -13,6 +13,7 @@ struct ContentView: View {
     var body: some View {
         //垂直にレイアウト
         VStack {
+            Text(inputText)
             //文字を受け取るTextFieldを表示
             TextField("支払い金額", text: $inputText
                       , prompt: Text("支払い金額を入力してください"))
