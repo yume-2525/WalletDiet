@@ -11,7 +11,7 @@ import SwiftUI
 struct WalletDietApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ResisterView()
         }
     }
 }
