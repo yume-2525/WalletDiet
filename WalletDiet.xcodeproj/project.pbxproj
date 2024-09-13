@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		106144862C94774B006342BA /* PaymentPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106144852C94774B006342BA /* PaymentPattern.swift */; };
+		106144892C9478F4006342BA /* PaymentCalculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106144882C9478F4006342BA /* PaymentCalculate.swift */; };
+		1061448B2C94795F006342BA /* DummyPaymentCalculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1061448A2C94795F006342BA /* DummyPaymentCalculate.swift */; };
 		9CE36D022C85B895007601B3 /* WalletDietApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE36D012C85B895007601B3 /* WalletDietApp.swift */; };
 		9CE36D042C85B895007601B3 /* ResisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE36D032C85B895007601B3 /* ResisterView.swift */; };
 		9CE36D062C85B897007601B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CE36D052C85B897007601B3 /* Assets.xcassets */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		106144852C94774B006342BA /* PaymentPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentPattern.swift; sourceTree = "<group>"; };
+		106144882C9478F4006342BA /* PaymentCalculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCalculate.swift; sourceTree = "<group>"; };
+		1061448A2C94795F006342BA /* DummyPaymentCalculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyPaymentCalculate.swift; sourceTree = "<group>"; };
 		9CE36CFE2C85B895007601B3 /* WalletDiet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalletDiet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE36D012C85B895007601B3 /* WalletDietApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletDietApp.swift; sourceTree = "<group>"; };
 		9CE36D032C85B895007601B3 /* ResisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResisterView.swift; sourceTree = "<group>"; };
@@ -35,6 +41,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		106144842C947736006342BA /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				106144852C94774B006342BA /* PaymentPattern.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		106144872C9478E3006342BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				106144882C9478F4006342BA /* PaymentCalculate.swift */,
+				1061448A2C94795F006342BA /* DummyPaymentCalculate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		9CE36CF52C85B895007601B3 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +77,8 @@
 		9CE36D002C85B895007601B3 /* WalletDiet */ = {
 			isa = PBXGroup;
 			children = (
+				106144872C9478E3006342BA /* Model */,
+				106144842C947736006342BA /* DataModel */,
 				9CE36D012C85B895007601B3 /* WalletDietApp.swift */,
 				9CE36D032C85B895007601B3 /* ResisterView.swift */,
 				9CE36D102C94567E007601B3 /* ResultView.swift */,
@@ -142,9 +167,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1061448B2C94795F006342BA /* DummyPaymentCalculate.swift in Sources */,
 				9CE36D042C85B895007601B3 /* ResisterView.swift in Sources */,
+				106144892C9478F4006342BA /* PaymentCalculate.swift in Sources */,
 				9CE36D022C85B895007601B3 /* WalletDietApp.swift in Sources */,
 				9CE36D112C94567E007601B3 /* ResultView.swift in Sources */,
+				106144862C94774B006342BA /* PaymentPattern.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +302,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WalletDiet/Preview Content\"";
-				DEVELOPMENT_TEAM = 548CB3QMLS;
+				DEVELOPMENT_TEAM = NJ55RU4U3A;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -312,7 +340,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WalletDiet/Preview Content\"";
-				DEVELOPMENT_TEAM = 548CB3QMLS;
+				DEVELOPMENT_TEAM = NJ55RU4U3A;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
