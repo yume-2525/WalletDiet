@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		9CE36D022C85B895007601B3 /* WalletDietApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE36D012C85B895007601B3 /* WalletDietApp.swift */; };
-		9CE36D042C85B895007601B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE36D032C85B895007601B3 /* ContentView.swift */; };
+		9CE36D042C85B895007601B3 /* ResisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE36D032C85B895007601B3 /* ResisterView.swift */; };
 		9CE36D062C85B897007601B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CE36D052C85B897007601B3 /* Assets.xcassets */; };
 		9CE36D0A2C85B897007601B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CE36D092C85B897007601B3 /* Preview Assets.xcassets */; };
+		9CE36D112C94567E007601B3 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE36D102C94567E007601B3 /* ResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9CE36CFE2C85B895007601B3 /* WalletDiet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalletDiet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE36D012C85B895007601B3 /* WalletDietApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletDietApp.swift; sourceTree = "<group>"; };
-		9CE36D032C85B895007601B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9CE36D032C85B895007601B3 /* ResisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResisterView.swift; sourceTree = "<group>"; };
 		9CE36D052C85B897007601B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CE36D072C85B897007601B3 /* WalletDiet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WalletDiet.entitlements; sourceTree = "<group>"; };
 		9CE36D092C85B897007601B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9CE36D102C94567E007601B3 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				9CE36D012C85B895007601B3 /* WalletDietApp.swift */,
-				9CE36D032C85B895007601B3 /* ContentView.swift */,
+				9CE36D032C85B895007601B3 /* ResisterView.swift */,
+				9CE36D102C94567E007601B3 /* ResultView.swift */,
 				9CE36D052C85B897007601B3 /* Assets.xcassets */,
 				9CE36D072C85B897007601B3 /* WalletDiet.entitlements */,
 				9CE36D082C85B897007601B3 /* Preview Content */,
@@ -139,8 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CE36D042C85B895007601B3 /* ContentView.swift in Sources */,
+				9CE36D042C85B895007601B3 /* ResisterView.swift in Sources */,
 				9CE36D022C85B895007601B3 /* WalletDietApp.swift in Sources */,
+				9CE36D112C94567E007601B3 /* ResultView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
